@@ -20,6 +20,7 @@ public class TestController {
     public ArrayList helloWorld(){
 
         log.info("Inside controller");
+        log.info("getting customer data");
         return testService.getHelloWorld();
     }
 }
